@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/bfd3987de4.js" crossOrigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Task List</title>
+</head>
+
+<body>
+    <div class="card" id="card">
+        <h1>Task List</h1>
+        <h2 id="warning">You forgot to add a task.. v.v</h2>
+        <div class="container">
+            <div class="input-wrap">
+                <button class="btn" id="addToDo"><i class="fas fa-plus" id="add-button"></i></button>
+                <input id="inputField" type="text">
+            </div>
+            <div class="to-dos" id="toDoContainer"></div>
+        </div>
+    </div>
+
+    <ul id="task-list">
+    </ul>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
